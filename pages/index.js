@@ -11,40 +11,39 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to Neverlands Phoenix!
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          This is a player run site for the <a href="http://neverlandsphoenix.org/">Neverlands Phoenix Ultima Online Shard</a>.
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/getting-started" className={styles.card}>
+            <h3>How to start &rarr;</h3>
+            <p>Learn how to download Ultima Online and get started playing Neverlands Phoenix.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="/learn" className={styles.card}>
             <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Learn about the commands, rules, skills and items within Neverlands Phoenix.</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="/guides"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h3>Guides &rarr;</h3>
+            <p>Discover guides written by players on treasure hunting, crafting and more.</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://discord.gg/8maTyRF"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Discord &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Join us on Discord to ask questions, contact staff and barter for items.
             </p>
           </a>
         </div>
@@ -52,12 +51,11 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://neverlandsphoenix.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          Neverlands Phoenix
         </a>
       </footer>
     </div>
