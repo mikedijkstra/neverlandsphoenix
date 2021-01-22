@@ -35,7 +35,7 @@ const Breadcrumbs = () => {
   }
 
   return (
-    <nav className="flex flex-wrap text-base pb-3 mb-2 border-gray-100 border-b-2">
+    <nav className="flex flex-wrap text-base pb-3 mb-6 border-gray-100 border-b-2">
       {breadcrumbs.map((breadcrumb, i) => {
         return (
           <span key={i} className="flex items-center">
