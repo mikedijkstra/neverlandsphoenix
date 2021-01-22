@@ -1,63 +1,171 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Neverlands Phoenix</title>
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to Neverlands Phoenix!
-        </h1>
-
-        <p className={styles.description}>
-          This is a player run site for the <a href="http://neverlandsphoenix.org/">Neverlands Phoenix Ultima Online Shard</a>.
-        </p>
-
-        <div className={styles.grid}>
-          <a href="/getting-started" className={styles.card}>
-            <h3>How to start &rarr;</h3>
-            <p>Learn how to download Ultima Online and get started playing Neverlands Phoenix.</p>
-          </a>
-
-          <a href="/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about the commands, rules, skills and items within Neverlands Phoenix.</p>
-          </a>
-
-          <a
-            href="/guides"
-            className={styles.card}
-          >
-            <h3>Guides &rarr;</h3>
-            <p>Discover guides written by players on treasure hunting, crafting and more.</p>
-          </a>
-
-          <a
-            href="https://discord.gg/8maTyRF"
-            className={styles.card}
-          >
-            <h3>Discord &rarr;</h3>
-            <p>
-              Join us on Discord to ask questions, contact staff and barter for items.
-            </p>
-          </a>
+      <main>
+        <div className="text-center">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
+            Welcome to Neverlands Phoenix!
+          </h1>
+          <p className="max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-medium">
+            This is a player run site for the{' '}
+            <a
+              href="http://neverlandsphoenix.org/"
+              className="text-gray-900 font-bold"
+            >
+              Neverlands Phoenix Ultima Online Shard
+            </a>
+            .
+          </p>
         </div>
-      </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://neverlandsphoenix.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Neverlands Phoenix
-        </a>
-      </footer>
-    </div>
+        <section className="text-gray-600 body-font">
+          <div className="container px-5 py-16 mx-auto">
+            <div className="flex flex-wrap -m-4">
+              <div className="p-4 md:w-1/2">
+                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                  <div className="p-6">
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                      Getting Started
+                    </h1>
+                    <p className="leading-relaxed mb-3">
+                      Learn how to download Ultima Online and get started
+                      playing Neverlands Phoenix.
+                    </p>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                        href="/getting-started"
+                      >
+                        Get started
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-4 md:w-1/2">
+                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                  <div className="p-6">
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                      Learn
+                    </h1>
+                    <p className="leading-relaxed mb-3">
+                      Learn about the commands, rules, skills and items within
+                      Neverlands Phoenix.
+                    </p>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                        href="/library"
+                      >
+                        View library
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-4 md:w-1/2">
+                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                  <div className="p-6">
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                      Guides
+                    </h1>
+                    <p className="leading-relaxed mb-3">
+                      Discover guides written by players on treasure hunting,
+                      crafting and more.
+                    </p>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                        href="/guides"
+                      >
+                        Read guides
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-4 md:w-1/2">
+                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                  <div className="p-6">
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                      Discord
+                    </h1>
+                    <p className="leading-relaxed mb-3">
+                      Join us on Discord to ask questions, contact staff and
+                      barter for items.
+                    </p>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                        href="https://discord.gg/8maTyRF"
+                      >
+                        Join Discord
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </>
   )
 }
