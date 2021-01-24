@@ -62,6 +62,12 @@ const Nav = () => {
         <NavLink href="https://discord.gg/8maTyRF" target="_blank">
           Discord
         </NavLink>
+        <NavLink href="https://discord.gg/8maTyRF" target="_blank">
+          Announcements
+        </NavLink>
+        <NavLink href="https://discord.gg/8maTyRF" target="_blank">
+          News & Updates
+        </NavLink>
       </nav>
     </div>
   )
