@@ -28,7 +28,7 @@ export default function Home() {
           <div className="container px-5 py-16 mx-auto">
             <div className="flex flex-wrap -m-4">
               <div className="p-4 md:w-1/2">
-                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="h-full border-2 border-gray-200 border-opacity-90 rounded-lg overflow-hidden">
                   <div className="p-6">
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                       Getting Started
@@ -62,7 +62,7 @@ export default function Home() {
               </div>
 
               <div className="p-4 md:w-1/2">
-                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="h-full border-2 border-gray-200 border-opacity-90 rounded-lg overflow-hidden">
                   <div className="p-6">
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                       Learn
@@ -96,7 +96,7 @@ export default function Home() {
               </div>
 
               <div className="p-4 md:w-1/2">
-                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="h-full border-2 border-gray-200 border-opacity-90 rounded-lg overflow-hidden">
                   <div className="p-6">
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                       Guides
@@ -130,7 +130,7 @@ export default function Home() {
               </div>
 
               <div className="p-4 md:w-1/2">
-                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="h-full border-2 border-gray-200 border-opacity-90 rounded-lg overflow-hidden">
                   <div className="p-6">
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                       Discord
@@ -145,6 +145,78 @@ export default function Home() {
                         href="https://discord.gg/8maTyRF"
                       >
                         Join Discord
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div className="p-4 md:w-1/2">
+                <div className="h-full border-2 border-gray-200 border-opacity-90 rounded-lg overflow-hidden">
+                  <div className="p-6">
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                      Announcements
+                    </h1>
+                    <p className="leading-relaxed mb-3">
+                      We will try to get a webhook to official Discord channel. Will post announcements / events.
+
+                      TBD when added
+                    </p>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                        href="https://discord.gg/8maTyRF"
+                      >
+                        In meanwhile click #announcements on official NLP Discord
+                        <svg
+                          className="w-4 h-4 ml-2"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M5 12h14"></path>
+                          <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="p-4 md:w-1/2">
+                <div className="h-full border-2 border-gray-200 border-opacity-90 rounded-lg overflow-hidden">
+                  <div className="p-6">
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                      News and updates
+                    </h1>
+                    <p className="leading-relaxed mb-3">
+                    We will try to get a webhook to official Discord channel. Will post announcements / events.
+                    
+                    TBD when added
+                    </p>
+                    <div className="flex items-center flex-wrap ">
+                      <a
+                        className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                        href="https://discord.gg/8maTyRF"
+                      >
+                        In meanwhile click #updates on official NLP Discord
                         <svg
                           className="w-4 h-4 ml-2"
                           viewBox="0 0 24 24"
