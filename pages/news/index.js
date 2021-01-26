@@ -8,7 +8,7 @@ const Index = () => {
       <Head>
         <title>News and Updates - Neverlands Phoenix</title>
       </Head>
-      <div className="prose lg:prose-lg">
+      <div className="prose lg:prose-lg mb-12">
         <h1>News and Updates</h1>
       </div>
 
