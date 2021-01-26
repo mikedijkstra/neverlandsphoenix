@@ -25,16 +25,16 @@ export default function Home() {
           </p>
         </div>
 
-        <section class="text-gray-600 body-font">
-          <div class="container flex flex-wrap px-5 mx-auto items-start">
-            <div class="md:w-1/2 flex flex-col items-start">
+        <section className="text-gray-600 body-font">
+          <div className="container flex flex-wrap px-5 mx-auto items-start">
+            <div className="md:w-1/2 flex flex-col items-start">
               <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mb-6">
                 Latest News & Updates
               </h2>
               <News size={3} layout="stacked" />
             </div>
 
-            <div class="py-12 md:py-0 md:px-12 md:w-1/2 flex flex-col items-start">
+            <div className="py-12 md:py-0 md:px-12 md:w-1/2 flex flex-col items-start">
               <div className="h-full border-2 border-gray-200 border-opacity-90 rounded-lg overflow-hidden">
                 <div className="p-6">
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
