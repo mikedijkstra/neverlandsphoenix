@@ -8,7 +8,9 @@ module.exports = withMdxEnhanced({
   rehypePlugins: [],
   usesSrc: false,
   extendFrontMatter: {
-    process: (mdxContent, frontMatter) => {},
+    process: (mdxContent, frontMatter) => {
+      return { ...frontMatter, mdxContent }
+    },
     phase: 'prebuild|loader|both',
   },
   reExportDataFetching: false,

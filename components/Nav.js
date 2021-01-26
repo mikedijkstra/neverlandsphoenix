@@ -59,14 +59,9 @@ const Nav = () => {
         <NavLink href="/getting-started">Getting Started</NavLink>
         <NavLink href="/library">Library</NavLink>
         <NavLink href="/guides">Guides</NavLink>
+        <NavLink href="/news">News & Updates</NavLink>
         <NavLink href="https://discord.gg/8maTyRF" target="_blank">
           Discord
-        </NavLink>
-        <NavLink href="https://discord.gg/8maTyRF" target="_blank">
-          Announcements
-        </NavLink>
-        <NavLink href="https://discord.gg/8maTyRF" target="_blank">
-          News & Updates
         </NavLink>
       </nav>
     </div>
