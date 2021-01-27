@@ -27,18 +27,24 @@ const News = ({ size, layout }) => {
             <div
               key={page.__resourcePath}
               className={`${
-                layout === 'stacked' ? '' : 'md:flex-nowrap'
+                layout === 'stacked' ? 'flex' : 'md:flex-nowrap'
               } py-8 flex flex-wrap `}
             >
               <div
                 className={`${
-                  layout === 'stacked' ? '' : 'md:w-64 md:mb-0 '
-                } flex-shrink-0 flex flex-col mb-6 `}
+                  layout === 'stacked'
+                    ? ''
+                    : 'md:w-64 md:mb-0 flex-shrink-0 md:flex-col'
+                }  w-full flex  mb-6 `}
               >
                 <span className="font-semibold title-font text-gray-700">
                   {page.category}
                 </span>
-                <span className="mt-1 text-gray-500 text-sm">
+                <span
+                  className={`md:mt-1 text-gray-500 text-sm ml-auto ${
+                    layout === 'stacked' ? null : 'md:ml-0'
+                  }`}
+                >
                   {formattedDate(page.date)}
                 </span>
               </div>

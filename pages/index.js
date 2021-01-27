@@ -10,7 +10,7 @@ export default function Home() {
 
       <main>
         <div className="text-center mb-12">
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mb-10">
             Welcome to Neverlands Phoenix!
           </h1>
           <p className="max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-medium">

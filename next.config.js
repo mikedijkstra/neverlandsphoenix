@@ -14,4 +14,5 @@ module.exports = withMdxEnhanced({
     phase: 'prebuild|loader|both',
   },
   reExportDataFetching: false,
+  clearCacheOnUpdate: true,
 })(/* your normal nextjs config */)
